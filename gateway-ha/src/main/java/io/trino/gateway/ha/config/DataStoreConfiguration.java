@@ -78,7 +78,7 @@ public class DataStoreConfiguration
 
     public boolean isQueryHistoryEnabled()
     {
-        return queryHistoryEnabled;
+        return this.queryHistoryEnabled;
     }
 
     public void setQueryHistoryEnabled(boolean queryHistoryEnabled)
